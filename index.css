@@ -1,0 +1,33 @@
+body {
+  background-color: grey;
+  text-align: center;
+  color: orange;
+}
+
+.title {
+  background-color: rgb(101, 126, 126);
+  margin-top: 0px;
+  font-size: 100px;
+}
+
+h4, p {
+  padding-top: auto;
+  margin-top: 10px;
+}
+
+h4 {
+  color: orange;
+}
+
+p {
+  color: black;
+}
+
+main {
+  margin-top: 150px;
+}
+
+footer {
+  margin-top: 100px;
+  color: aquamarine;
+}
