@@ -35,7 +35,10 @@ const App = () => {
         <p>{longitude}</p>
       </main>
       <footer>
-        <a href={urlMap} rel="noreferrer" target="_blank">Open in maps</a>
+        <button className="btn-1">
+          <a href={urlMap} rel="noreferrer" target="_blank">Open in maps</a>
+        </button>
+        <button className="btn-2" onClick={upadetDataBtn}>Update data</button>
       </footer>
     </div>
   )
